@@ -33,49 +33,48 @@
                 "host": "localhost",
                 "port": 80,
                 "protocol": "tcp",
-		"stop": "",
-		"start": "service nginx start"
+                "stop": "",
+                "start": "service nginx start"
             },
-			{
+            {
                 "name": "CakeBox",
                 "host": "localhost",
                 "port": 81,
                 "protocol": "tcp",
-		"stop": "",
-		"start": ""
+                "stop": "",
+                "start": ""
             },
             {
                 "name": "Rutorrent Cyprien",
                 "host": "localhost",
                 "port": 5001,
                 "protocol": "tcp",
-		"stop": "service cyprien-rtorrent stop",
-		"start": "service cyprien-rtorrent start"
+                "stop": "service cyprien-rtorrent stop",
+                "start": "service cyprien-rtorrent start"
             },
             {
                 "name": "SickRage Cyprien",
                 "host": "localhost",
                 "port": 8081,
                 "protocol": "tcp",
-		"stop": "docker stop sickrage-cyprien",
-		"start": "docker start sickrage-cyprien"
+                "stop": "docker stop sickrage-cyprien",
+                "start": "docker start sickrage-cyprien"
             },
-			{
+            {
                 "name": "CouchPotato Cyprien",
                 "host": "localhost",
                 "port": 5050,
                 "protocol": "tcp",
-		"stop": "docker stop couchpotato-cyprien",
-		"start": "docker start couchpotato-cyprien"
+                "stop": "docker stop couchpotato-cyprien",
+                "start": "docker start couchpotato-cyprien"
             },
             {
                 "name": "SSH",
                 "host": "localhost",
                 "port": 22,
                 "protocol": "tcp",
-		"stop": "",
-		"start": "/etc/init.d/ssh start"
-				
+                "stop": "",
+                "start": "/etc/init.d/ssh start"
             }
         ]
     }
